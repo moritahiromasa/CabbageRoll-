@@ -2,32 +2,9 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
 	<title>JavaScript 複数の画像スライダーを設置する</title>
-
-	<style>
-	fieldset {
-	display: inline-block;
-	width : 800px;
-	height: 660px;
-	padding: 10px;
-	text-align: center;
-	background-color: #eee;
-	border: 1px solid green;
-	}
-
-	fieldset div{
- 		display: inline-block;
-	}
-
-	fieldset span{
-		display: inline-block;
-	 	width: 5em;
-	 	padding: 2px 3px;
-	 	color: black;
-	 	background-color: white;
-	}
-	</style>
-	
+	<link rel="stylesheet" href="/css/style.css">
 
 	<script>
 
@@ -81,14 +58,12 @@
 
 		<fieldset>
 		<legend>[1] ５枚の画像スライダー</legend>
-		<img name="img1" src="" width="760" height="600" border="0">
-		<input type="button" value="戻る" onclick="changeImage(1, 'prev')">
 		<div>
+			<input type="button" value="戻る" onclick="changeImage(1, 'prev')">
 			<input type="button" value="進む" onclick="changeImage(1, 'next')">
 			<span id="text1">---</span>
 		</div>
 		</fieldset>
-		
 	</body>
 </html>
 

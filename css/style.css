@@ -1,0 +1,30 @@
+@import url(sanitize.css);
+
+fieldset {
+	display: inline-block;
+	width: 800px;
+	height: 660px;
+	padding 10px;
+	text-align: center;
+	background-color; #eee;
+	border: 1px solid green;
+}
+
+fieldset div {
+	display: inline-block;
+}
+
+fieldset span {
+	display: inline-block;
+	width: 5em;
+	padding: 2px 3px;
+	color; black;
+	background-color: white;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+
+
