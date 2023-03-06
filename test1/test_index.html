@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>JavaScript 複数の画像スライダーを設置する</title>
 	<link rel="stylesheet" href="/css/style.css">
 
@@ -56,14 +56,15 @@
 
 		<h4>JavaScript 複数のスライダーがテキストと同時にかわる</h4>
 
-		<fieldset>
-		<legend>[1] ５枚の画像スライダー</legend>
-		<div>
-			<input type="button" value="戻る" onclick="changeImage(1, 'prev')">
-			<input type="button" value="進む" onclick="changeImage(1, 'next')">
+		<div class="content">
+			<legend>[1] ５枚の画像スライダー</legend>
+			<h1>ロボットシステム学</h1>
+			<img name="img1" src="" width="760" height="600" border="0"> 
+			<p><input type="button" value="<" onclick="changeImage(1, 'prev')">
+			<input type="button" value=">" onclick="changeImage(1, 'next')">
 			<span id="text1">---</span>
+			</p>
 		</div>
-		</fieldset>
 	</body>
 </html>
 

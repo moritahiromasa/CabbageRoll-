@@ -1,5 +1,6 @@
 @import url(sanitize.css);
 
+
 fieldset {
 	display: inline-block;
 	width: 800px;
@@ -10,9 +11,6 @@ fieldset {
 	border: 1px solid green;
 }
 
-fieldset div {
-	display: inline-block;
-}
 
 fieldset span {
 	display: inline-block;
@@ -22,9 +20,28 @@ fieldset span {
 	background-color: white;
 }
 
+
+legend {
+	color: black;
+	font-size: 1.5em;
+}
+
+
 h4 {
 	font-size: 24px;
 }
 
+h1 {
+	font-size:1.2em;
+	color: #d1d1d1; /*文字の色をグレー*/
+}
+
+.content {
+	background-color: #eee;
+	width: 600px;
+	margin: 10px auto;
+	border: 1px solid #d1d1d1;
+	padding: 30px;
+}
 
 

@@ -1,0 +1,53 @@
+@import url(../sanitize.css);
+
+/* bodyの設定*/
+body {
+	background-color: #f0f0f0;
+	padding: 10px;
+	font-size: 14px;
+	color: black;
+}
+
+/* containerの設定*/
+.container {
+	width: 800px;
+	margin: 0 auto; 
+	box-shadow: 0 0 10px rgba(0, 0, 0, .4); /* 影をつける*/
+	text-align: right; /* テキストを右寄せに*/
+}
+
+/* タイトルの外枠を設定 */
+.container header {
+	padding: 100px;
+	color: black;
+	border-bottom: 1px solid #d1d1d1;
+}
+
+/* タイトル自体の設定*/
+.container h1 {
+	font-size: 100px;
+	font-weight: bold;
+	border-bottom: 1px solid #d1d1d1;
+	text-shadow: 0 0 10px rgba(0, 0, 0, .3); /* 文字に影をつける*/
+}
+
+/* 日付、所属、氏名の外枠を設定*/
+.information {
+	padding: 10px;
+	color: black;
+	text-shadow: 0 0 10px rgba(0, 0, 0, .3); /* 文字に影をつける*/
+}
+
+/* 日付、所属、氏名自体の設定*/
+.informaition p {
+	margin: 2px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* ボタンの位置*/
+.buttonControl {
+	text-align: right;
+}
+
+
