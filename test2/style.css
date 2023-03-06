@@ -3,6 +3,7 @@
 /* bodyの設定*/
 body {
 	background-color: #f0f0f0;
+
 	padding: 10px;
 	font-size: 14px;
 	color: black;
@@ -10,8 +11,10 @@ body {
 
 /* containerの設定*/
 .container {
+	background-color: #f8f8f8;
 	width: 800px;
-	margin: 0 auto; 
+	height: 640px;
+	margin: 10 auto; 
 	box-shadow: 0 0 10px rgba(0, 0, 0, .4); /* 影をつける*/
 	text-align: right; /* テキストを右寄せに*/
 }
@@ -45,9 +48,20 @@ body {
 	font-weight: bold;
 }
 
+/* 日付、所属、名前に下線を引く*/
+.date {
+	border-bottom: 1px solid #d1d1d1;
+}
+.belonging {
+	border-bottom: 1px solid #d1d1d1;
+}
+.name {
+	border-bottom: 1px solid #d1d1d1;
+}
+
 /* ボタンの位置*/
 .buttonControl {
-	text-align: right;
+	margin: 2px auto auto 760px;
 }
 
 
