@@ -1,15 +1,19 @@
 @charset "utf-8";
 
+
+
+/* title_1の設定 */
 header h1 {
-	padding: 50px;
+	padding: 120px;
 	text-align: center;
 	font-size: 80px;
 	font-weight: bold;
 	margin-bottom: 60px;
 	white-space: nowrap;
+
 }
 
-
+/* title_2, 3, 4,...の設定*/
 h1 {
 	padding: 10px;
 	text-align: left;
@@ -18,10 +22,17 @@ h1 {
 	white-space: nowrap;
 }
 
- p {
+/* slide1 */
+.slide1 p {
+	padding: 15px;
 	text-align: right;
 	font-size: 24px;
+	font-weight: bold;
+/*	text-decoration: underline; */
 }
 
-	
+.slide2 li {
+	font-size: 24px;
+
+}
 
