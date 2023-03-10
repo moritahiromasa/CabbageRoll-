@@ -2,55 +2,9 @@
 const SLIDE_NUM = 4;
 
 
-// 画像とナビの要素を自動で追加
+// ナビの要素を自動で追加
 for(var i = 0; i < SLIDE_NUM; i++) {
 
-	switch(i){
-		
-		case 0:
-
-			/**** 一枚目のスライド ****/
-
-			// li要素を取得
-			var slide1 = document.createElement("li");
-			// li要素の中に画像タグを埋め込む
-			slide1.innerHTML = "<div class=\"slide1\"><header><h1>YKK 技術面接資料</h1></header><p> 日付: 2023年03月19日</p><p> 所属: 千葉工業大学 先進工学部 未来ロボティクス学科</p><p> 氏名: 森田 大雅</p></div>";
-			// li要素をクラス名「slider-inner」の子要素として追加
-			document.getElementsByClassName("slider-inner")[0].appendChild(slide1);
-
-
-			break;
-
-		/**** 二枚目のスライド   ****/
-		case 1:
-			
-			
-			var slide2 = document.createElement("li");
-			slide2.innerHTML = "<h1> dummy title 1</h1>";
-			document.getElementsByClassName("slider-inner")[0].appendChild(slide2);
-			break;
-
-		/**** 三枚目のスライド ****/
-		case 2:
-						
-			var slide3 = document.createElement("li");
-			slide3.innerHTML = "<h1> dummy title 2</h1>";
-			document.getElementsByClassName("slider-inner")[0].appendChild(slide3);
-			break;
-
-		/**** 四枚目のスライド   ****/
-		case 3:
-
-			var slide4 = document.createElement("li");
-			slide4.innerHTML = "<h1> dummy title 3</h1>";
-			document.getElementsByClassName("slider-inner")[0].appendChild(slide4);
-			break;
-
-		default:
-
-			break;
-
-	}
 
 	// li要素を取得
 	var nav = document.createElement("li");
@@ -62,7 +16,7 @@ for(var i = 0; i < SLIDE_NUM; i++) {
 
 // スライドの数を取得(処理のために-1する)
 var length = SLIDE_NUM - 1;
-// クラス名「Slide」に文章の一つの要素を格納
+// クラス名「Slide」にclass属性を格納
 var Slide = document.getElementsByClassName("slider-inner")[0].getElementsByTagName("li");
 
 

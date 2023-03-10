@@ -31,8 +31,10 @@ h1 {
 /*	text-decoration: underline; */
 }
 
-.slide2 li {
+div p {
+	padding: 10px;
 	font-size: 24px;
+	font-weight: bold;
 
 }
 
