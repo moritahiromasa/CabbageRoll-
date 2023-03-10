@@ -1,5 +1,5 @@
 // マクロ定義
-const SLIDE_NUM = 4;
+const SLIDE_NUM = 5;
 
 
 // ナビの要素を自動で追加

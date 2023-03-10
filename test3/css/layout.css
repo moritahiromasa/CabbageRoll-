@@ -1,8 +1,8 @@
 .slider {
 	font-family: serif;
     position: relative;
-    width: 1000px;
-    height: 640px;
+    width: 1180px;
+    height: 750px;
     margin: 50px auto;
 	box-shadow: 0 0 8px rgba(0, 0, 0, .4);
 }
