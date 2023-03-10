@@ -1,0 +1,99 @@
+.slider {
+	font-family: serif;
+    position: relative;
+    width: 1000px;
+    height: 640px;
+    margin: 50px auto;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .4);
+}
+
+.slider .slider-inner {
+/*    position: relative; */
+/*	background-color: #f0f0f0;*/
+	border: 1px solid #d1d1d1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.slider .slider-inner li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: all 600ms;
+    transition: all 600ms;
+    pointer-events: none
+}
+
+.slider .slider-inner li.show {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    z-index: 1;
+    pointer-events: auto
+}
+
+.slider .nav {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0
+}
+
+.slider .nav li {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;  
+    border-radius: 15px;
+    background: #ddd;
+    cursor: pointer;
+    -webkit-transition: background 400ms;
+    transition: background 400ms
+}
+
+.slider .nav li:hover {
+    background: #aaa
+}
+
+.slider .nav li.current {
+    background: #aaa
+}
+
+.slider .arrow {
+    position: absolute;	/* 要素の位置を決める*/
+    top: 50%; 				/* 上からの位置の距離*/
+    font-size: 50px;
+	font-weight: bold;
+    cursor: pointer;		/* リンクを指すマークのポイントが表示される*/
+    width: 20px;
+    height: 40px;
+    background: #f0f0f0;
+    color: #5AB9C1; /* 金春色*/
+    line-height: 40px;
+    padding: 5px;
+	margin: auto;
+    -webkit-transition: opacity 400ms;
+    transition: opacity 400ms
+}
+
+.slider .arrow:hover {
+    opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"
+}
+
+.slider .arrow#arrow-prev {
+    left: 0;
+    -webkit-transform: translate(-100%,-50%);
+    transform: translate(-100%,-50%)
+}
+
+.slider .arrow#arrow-next {
+    right: 0;
+    -webkit-transform: translate(100%,-50%);
+    transform: translate(100%,-50%)
+}

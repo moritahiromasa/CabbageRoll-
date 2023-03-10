@@ -1,0 +1,1 @@
+const targetElement = document.querySelectorAll

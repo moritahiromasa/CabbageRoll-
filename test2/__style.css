@@ -1,0 +1,63 @@
+@import url(../sanitize.css);
+
+/* bodyの設定*/
+body {
+	background-color: #f0f0f0;
+	font-family: serif; /* 明朝体 */
+	padding: 10px;
+	font-size: 14px;
+	color: black;
+}
+
+/* containerの設定*/
+.container {
+	background-color: #f8f8f8;
+	width: auto;
+	height: auto;
+	margin: 10 auto; 
+	box-shadow: 0 0 10px rgba(0, 0, 0, .4); /* 影をつける*/
+}
+
+/* タイトルの外枠を設定 */
+header {
+	padding: 100px;
+	color: black;
+	border-bottom: 1px solid #d1d1d1;
+}
+
+/* タイトル自体の設定*/
+header h1 {
+	font-size: 100px;
+	font-weight: bold;
+	border-bottom: 1px solid #d1d1d1;
+	text-shadow: 0 0 10px rgba(0, 0, 0, .3); /* 文字に影をつける*/
+}
+
+
+/* 日付、所属、氏名自体の設定*/
+.slider1 p {
+	padding: 10px;
+	margin: 2px;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+/* 日付、所属、名前に下線を引く*/
+p {
+	border-bottom: 1px solid #d1d1d1;
+}
+
+/* ボタンの位置 上右下左*/
+.buttonControl {
+	margin: auto;
+}
+
+/* slide2について*/
+.slide2 {
+	text-align: left;
+}
+
+
+
+
+
