@@ -38,3 +38,15 @@ div p {
 
 }
 
+a {
+	padding: 10px;
+	margin: 10px;
+	color: #666;
+	text-decoration: underline;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+img {
+	padding: 10px;
+}
